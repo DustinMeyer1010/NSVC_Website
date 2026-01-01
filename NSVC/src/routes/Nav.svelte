@@ -1,3 +1,5 @@
+<!-- TODO: Needs to add menu for when the screen become smaller than 700px -->
+
 <nav>
     <img src="" alt=""/>
     <div>
@@ -15,7 +17,7 @@
         top:0;
         left: 0;
         box-sizing: border-box;
-        height: 64px;
+        max-height: 64px;
         padding: 1rem;
         width: 80%;
         border-radius: 0 0 5px 5px;
@@ -26,13 +28,11 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-
-
-        background: var(--background-color-ligther);
+        background: var(--accent-color);
     }
 
     div {
-        flex-basis: 50%;
+        flex-basis: 70%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -45,4 +45,12 @@
         font-size: 18px;
         color: var(--text-color);
     }
+
+
+    @media (max-width: 1000px) {
+        div {flex-grow: 1;
+
+        }
+    }
+
 </style>

@@ -1,12 +1,9 @@
 <main>
 
-    <h1>Memberships</h1>
-
 </main>
 
 
-
-<style>
+<style> 
     main {
         flex-grow: 1;
     }

@@ -3,8 +3,14 @@
 	import Nav from './Nav.svelte';
 	import "../global.css"
 	import Footer from './Footer.svelte';
+	import { theme } from '$lib/theme';
+	import { get } from 'svelte/store';
+
+	get(theme) // Retrieves the theme for the webpage
 
 	let { children } = $props();
+
+
 </script>
 
 <svelte:head>
