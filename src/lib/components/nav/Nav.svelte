@@ -25,7 +25,6 @@
         align-items: center;
         justify-content: space-between;
         box-sizing: border-box;
-        position: sticky;
         padding: 0rem 1rem;
         top: 0px;
         left: 0px;

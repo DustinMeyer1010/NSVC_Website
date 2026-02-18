@@ -4,6 +4,9 @@
     transition: 0.3s ease;
 }
 
+* {
+    box-sizing: border-box;
+}
 
 
 html,body {
@@ -14,7 +17,8 @@ html,body {
 html {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 100%;
+    height: fit-content;
 }
 
 body {
@@ -29,7 +33,7 @@ body div main {
 }
 
 
-
+ 
 :root[data-theme='light'] {
     --background: #f7f5f1;
     --nav: #1E293B;
