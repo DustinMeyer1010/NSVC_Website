@@ -1,4 +1,8 @@
 :root {
+    --transition-fast: 0.15s ease;
+    --transition-med: 0.20s ease;
+    --transition-slow: 0.3s ease;
+
     background: var(--background);
     color: var(--text);
     transition: 0.3s ease;
@@ -30,6 +34,7 @@ body {
 
 body div main {
     flex-grow: 1;
+    padding: 1rem 1rem;
 }
 
 

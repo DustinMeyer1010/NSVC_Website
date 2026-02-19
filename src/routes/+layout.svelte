@@ -2,7 +2,7 @@
 	import Footer from "$lib/components/footer/Footer.svelte";
 	import Nav from "$lib/components/nav/Nav.svelte";
 	import "$lib/styles/global.css"
-	// <!-- ! Keep (Imports the theme of the page) -->
+	// <!-- ! Line renders the theme on load -->
 	import { theme } from "$lib/stores/theme"; 
 
 

@@ -1,1 +1,3 @@
-Memeberships
+<main>
+    Memberships
+</main>

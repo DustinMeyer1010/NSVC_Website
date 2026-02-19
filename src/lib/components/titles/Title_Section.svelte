@@ -1,14 +1,16 @@
 <script lang="ts">
+	import type { Snippet } from "svelte";
+
 
 
     type tPosition = "center" | "left" | "right"
 
     let {
-        title,
+        children,
         size = 50,
         position = "center",
     } : {
-        title: string,
+        children: Snippet,
         size?: number,
         position?: tPosition,
     } = $props()
@@ -18,7 +20,7 @@
             return ""
         }
 
-        return "flex-grow: 0; flex-basis: 10%"
+        return "flex-grow: 0; flex-basis: 5%"
     })
 
     let rightLineStyle = $derived.by(() => {
@@ -26,7 +28,7 @@
             return ""
         }
 
-        return "flex-grow: 0; flex-basis: 10%"
+        return "flex-grow: 0; flex-basis: 5%"
     })
 
 </script>
@@ -34,7 +36,7 @@
 
 <div>
     <hr style={leftLineStyle}>
-    <h1 style="--size: {size}px">{title.toUpperCase()}</h1>
+    <h1 style="--size: {size}px">{@render children()}</h1>
     <hr style={rightLineStyle}>
 </div>
 
