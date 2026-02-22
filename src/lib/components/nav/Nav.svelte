@@ -36,6 +36,7 @@
         font-size: 18px;
         font-weight: bold;
         margin-bottom: 1rem;
+        z-index: 100;
     }
 
     div#links {

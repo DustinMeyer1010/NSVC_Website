@@ -1,6 +1,6 @@
 <script lang="ts">
-    import TitleSection from "$lib/components/titles/Title_Section.svelte";
-    import ButtonOutlined from "$lib/components/buttons/Button_Outlined.svelte";
+    import TitleSection from "$lib/components/titles/Section.svelte";
+    import ButtonOutlined from "$lib/components/buttons/Outlined.svelte";
 </script>
 
 <main>
