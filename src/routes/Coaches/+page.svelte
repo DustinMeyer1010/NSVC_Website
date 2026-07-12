@@ -36,7 +36,7 @@
         width: 100%;
         padding: 0.7rem 0 ;
         top: 0px;
-        background: var(--nav);
+        background: var(--surface);
         position: sticky;
         text-align: center;
     }
@@ -52,13 +52,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: var(--nav);
-        height: 500px;
+        background: var(--surface);
         min-width: 700px;
         padding: 0 1.5rem 1.5rem 1.5rem;
         border-radius: 14px;
         overflow-y: scroll;
         position: relative;
+        height: 700px;
     }
 
     a:visited {
